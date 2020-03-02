@@ -1,3 +1,33 @@
-.test {
-    background-color: aqua;
+body {
+    font-family: 'Playfair Display', "Arial";
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+.page-header {
+
+}
+.site-navigation {
+    /* font-size: 14px; */
+    list-style: none;
+}
+.site-navigation a {
+    color: #626262;
+    /* font-weight: 300; */
+    text-transform: uppercase;
+    text-decoration: none;
+    /* color hover #03a9f4 */
+}
+.all-posts-list {
+    list-style: none;
+}
+.row-description {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    line-height: 17px;
+    font-family: 'Ubuntu', "Arial";
+}
+.article-title{
+    font-size: 30px;
+    line-height: 36px;
 }
