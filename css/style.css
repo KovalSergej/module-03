@@ -1,3 +1,19 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    /* padding: 150px; */
+    background-color: #91dd64;
+
+}
+
+/* *,
+::before,
+::after {
+    box-sizing: inherit;
+} */
+
 body {
     font-family: 'Playfair Display', "Arial";
     color: #626262;
@@ -5,8 +21,58 @@ body {
     line-height: 24px;
 }
 .page-header {
-
+    background-color: #64b7dd;
 }
+
+#wrapper{
+    background-color: #ddd563;
+    
+}
+
+.site-navigation {
+    display: block;
+    padding: 77px 150px 104px 150px;
+    text-align: center;
+}
+
+.all-posts {
+    padding: 0px 149px;
+}
+
+.all-posts-list {
+    /* padding: 1px 150px 0px 150px; */
+    padding: 0px;
+    list-style: none;
+}
+
+.all-posts-list-item {
+    display: inline-block;
+    width: 420px;
+    height: 480px;
+    /* margin-right: 48px; */
+    /* margin-left: 150px; */
+}
+
+.all-posts-list-item + .all-posts-list-item {
+    padding-left: 59px;
+    
+}
+
+.nav-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-item + .nav-item {
+    padding-left: 110px;
+}
+
+.main-navigation {
+    /* max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px; */
+}
+
 .site-navigation {
     /* font-size: 14px; */
     list-style: none;
@@ -18,9 +84,7 @@ body {
     text-decoration: none;
     /* color hover #03a9f4 */
 }
-.all-posts-list {
-    list-style: none;
-}
+
 .row-description {
     text-transform: uppercase;
     color: #b4ad9e;
